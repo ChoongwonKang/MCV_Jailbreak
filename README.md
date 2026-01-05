@@ -1,3 +1,3 @@
 # MCV_Jailbreak
 
-(Fig/Fig_2.png)
+!(Fig/Fig_2.png)
