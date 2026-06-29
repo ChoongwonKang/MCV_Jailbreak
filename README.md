@@ -12,9 +12,20 @@ Attack/
 │   └── Changed_question/
 └── Implicit/
 ```
-Description
+#### Description
 - `Attack/Explicit/` contains the code used to perform explicit jailbreak attacks on multimodal large language models (MLLMs).
 - `Attack/Implicit/` contains the code used to perform implicit jailbreak attacks on multimodal large language models (MLLMs).
 - `Attack/Explicit/Changed_question/` contains the prompts used for the explicit attack setting.
 
+### 2. Evaluation
+```text
+Evaluation/
+├── policy.txt
+├── score.txt
+└── score_judgement.py
+```
 
+#### Description
+- `Evaluation/policy.txt` contains the safety policy used for response evaluation.
+- `Evaluation/score.txt` contains the 1–5 scoring rubric for judging model responses.
+- `Evaluation/score_judgement.py` contains the GPT-4o-mini-based scoring script. We treat an attack as successful only when the response receives `Score 5`.
