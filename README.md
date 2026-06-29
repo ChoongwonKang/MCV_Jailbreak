@@ -40,4 +40,4 @@ Prompt_construction/
 #### Description
 - `Prompt_construction/semantic_extraction.py` contains the code used to extract semantic phrases from harmful queries, including subject, object, action, and mood phrase.
 - `Prompt_construction/semantic_reconstruction.py` contains the code used to reconstruct the extracted phrases into a complete sentence.
-These scripts were used to construct MCV-SafetyBench by using GPT-4o.
+- These codes were used to construct MCV-SafetyBench by using GPT-4o.
