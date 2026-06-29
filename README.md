@@ -29,3 +29,15 @@ Evaluation/
 - `Evaluation/policy.txt` contains the safety policy used for response evaluation.
 - `Evaluation/score.txt` contains the 1–5 scoring rubric for judging model responses.
 - `Evaluation/score_judgement.py` contains the GPT-4o-mini-based scoring script. We treat an attack as successful only when the response receives `Score 5`.
+
+### 3. Prompt Construction
+```text
+Prompt_construction/
+├── semantic_extraction.py
+└── semantic_reconstruction.py
+```
+
+#### Description
+- `Prompt_construction/semantic_extraction.py` contains the code used to extract semantic phrases from harmful queries, including subject, object, action, and mood phrase.
+- `Prompt_construction/semantic_reconstruction.py` contains the code used to reconstruct the extracted phrases into a complete sentence.
+These scripts were used to construct MCV-SafetyBench by using GPT-4o.
