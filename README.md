@@ -5,20 +5,16 @@ MCV-SafetyBench is a video-based safety benchmark for evaluating multimodal larg
 ![Figure](Fig/Fig_2.png)
 
 ## Repository Structure
-
+### 1. Attack
 ```text
 Attack/
 ├── Explicit/
 │   └── Changed_question/
 └── Implicit/
 ```
-
-## Description
-
-1. `Attack/Explicit/` contains the code used to perform explicit jailbreak attacks on multimodal large language models (MLLMs).
-
-2. `Attack/Implicit/` contains the code used to perform implicit jailbreak attacks on multimodal large language models (MLLMs).
-
-3. `Attack/Explicit/Changed_question/` contains the prompts used for the explicit attack setting.
+Description
+- `Attack/Explicit/` contains the code used to perform explicit jailbreak attacks on multimodal large language models (MLLMs).
+- `Attack/Implicit/` contains the code used to perform implicit jailbreak attacks on multimodal large language models (MLLMs).
+- `Attack/Explicit/Changed_question/` contains the prompts used for the explicit attack setting.
 
 
